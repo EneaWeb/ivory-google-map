@@ -9,7 +9,8 @@ controls, overlays, events & services through the Google Map API v3.
 ## Documentation
 
 As the original repository has not been updated since years, this fork provides Api Key parameter usage.
-To use this fork, add this to your composer.json:
+
+Just add this to your composer.json:
 
       "repositories": [
         {
@@ -30,6 +31,7 @@ Then you can call the AbstractJavascriptVariableAsset instance with apiKey this 
       $autocomplete = new Autocomplete();
       if (!App::environment('local')) 
          $autocomplete->setApiKey([API_KEY]);
+         
 
    1. [Installation](http://github.com/egeloen/ivory-google-map/blob/master/doc/installation.md)
    2. [Usage](http://github.com/egeloen/ivory-google-map/blob/master/doc/usage.md)
